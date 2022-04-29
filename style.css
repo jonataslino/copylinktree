@@ -29,18 +29,72 @@ button {
     display: block;
     padding: 10px;
     margin-top: 15px;
-    border: 1px solid gray;
+    border: 1px solid black;
     border-radius: 20px;
     width: 50%;
     cursor: pointer;
+    font-size: large;
 }
 
-h4{
-    color:#a2a2a2;
+#instagram:hover {
+    background-color: #ff6303;
+    color: white;
 }
- 
-a{
+
+#linkedin:hover {
+    background-color: #2076a8;
+    color: white;
+}
+
+#youtube:hover {
+    background-color: #cf1c1f;
+    color: white;
+}
+
+#github:hover {
+    background-color: #002638;
+    color: white;
+}
+
+#twitter:hover {
+    background-color: #23b8fe;
+    color: white;
+}
+
+h4 {
+    color: whitesmoke;
+}
+
+a {
     text-decoration: none;
 }
 
+@media screen and (max-width:425px) {
 
+    button {
+        display: block;
+        padding: 10px;
+        margin-top: 15px;
+        border: 1px solid black;
+        border-radius: 0px;
+        width: 100%;
+        cursor: pointer;
+        font-size: large;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+
+    button {
+        display: block;
+        padding: 10px;
+        margin-top: 15px;
+        border: 1px solid black;
+        border-radius: 0px;
+        width: 100%;
+        cursor: pointer;
+        font-size: large;
+    }
+
+}
